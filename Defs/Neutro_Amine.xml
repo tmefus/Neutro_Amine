@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- 这是中性胺的内容 -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Neutroamine</defName>
+		<label>Neutro amine</label>
+		<description>A synthetic precursor chemical. While it is useless on its own, many drugs require neutroamine as an ingredient.</description>
+		<possessionCount>10</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/Neutroamine</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>6</MarketValue>
+			<Mass>0.02</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<WorkToMake>300</WorkToMake>
+		</statBases>
+		<costList>
+			<!-- 精神叶*3 -->
+			<PsychoidLeaves>3</PsychoidLeaves>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MedicineProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<skillRequirements>
+				<Intellectual>4</Intellectual>
+			</skillRequirements>
+			<bulkRecipeCount>4</bulkRecipeCount>
+			<displayPriority>2000</displayPriority>
+		</recipeMaker>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+	</ThingDef>
+</Defs>

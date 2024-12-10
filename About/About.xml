@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Neutro Amine制作中性胺</name>
+  <author>mefus</author>
+  <packageId>mefus.rimworld.neutroamine</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>
+On the drug laboratory bench, produce the MOD of neutro amine.
+Raw materials: 3 * Psychic Leaves
+Minimum skill requirement: Intellect 4
+Workload: 5
+In addition, there are no changes.  Keep all the contents of the neutro amine in the game.
+
+在药物实验台制作中性胺的MOD。
+原料： 3*精神叶
+最低技能要求： 智识4
+工作量： 5
+此外没有更改，保持游戏中性胺的所有内容。
+  </description>
+</ModMetaData>
